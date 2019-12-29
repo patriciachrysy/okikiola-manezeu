@@ -1,0 +1,135 @@
+html {
+    font: 10px;
+    box-sizing: border-box;
+}
+body {
+    background-color: #eee;
+    color: #000000;
+}
+#header {
+    position: fixed;
+    top: 0;
+    width: 100%;  
+    display: inline-block;
+    background-color: #eee;
+}
+#header nav {
+    padding: 25px 35px;
+}
+#nav-bar a {
+    float: right;
+    margin-right: 60px;
+    text-decoration: none;
+    color: #000000 !important;
+}
+.clear {
+    clear: both;
+}
+#header-img {
+    width: 30%;
+}
+#container {
+    padding-top: 102px;
+    margin: auto;
+    width: 70%;
+    display: block;
+}
+#form {
+    text-align: center;
+}
+#email {
+    width: 35%;
+    padding: 5px;
+}
+#submit {
+    border-radius: 2px;
+    background-color: #f1c40f;
+    padding: 5px 10px;
+    margin-top: 15px;
+    border: none;
+    font-size: 16px;
+    font-weight: 600;
+}
+#features {
+    margin-top: 60px;
+}
+#container1 {
+    display: flex;
+    margin-bottom: 40px;
+}
+#icon {
+    justify-content: center;
+    margin-top: 22px;
+    display: flex;
+    color: #f1c40f;
+    font-size: 3em;
+    padding-right: 60px;
+}
+#icon-desc {
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+h2 span {
+    margin: 0 !important;
+    padding: 0 !important;
+}
+#how-it-works {
+    text-align: center;
+    padding: 45px;
+}
+#pricing{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin: 40px 0;
+}
+#pricing-desc {
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    margin-right: 10px;
+    border: 1px solid #000000;
+}
+#pricing-desc:last-child {
+    margin-right:0;
+}
+#pricing-hdr {
+    background-color: #dddddd;
+    padding: 10px;
+}
+#pricing-desc ol {
+    padding: 0px 100px !important;
+}
+#pricing-desc button {
+    border-radius: 2px;
+    background-color: #f1c40f;
+    padding: 5px 10px;
+    margin-bottom: 15px;
+    border: none;
+    font-size: 16px;
+}
+footer {
+    background-color: #dddddd !important;
+    width: 100%;
+}
+#footer-ul {
+    float: right;
+}
+#footer-ul a {
+    text-decoration: none;
+    color: #000000;
+    padding-right: 10px;
+}
+/* @media only screen and (max-width: 600px) {
+    body {
+        display: flex;
+    }
+    
+} */
+@media only screen and (min-width: 768px) {
+    /* For desktop: */
+    .body {
+        display: flex;
+    }
+  }
